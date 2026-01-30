@@ -47,6 +47,3 @@ cache/
 
 # PyCharm
 .idea/
-
-# Vim
-*.swp
