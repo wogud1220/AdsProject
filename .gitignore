@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch / TensorFlow
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+
+# Dataset / cache
+data/
+datasets/
+cache/
+
+# HuggingFace
+.cache/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
