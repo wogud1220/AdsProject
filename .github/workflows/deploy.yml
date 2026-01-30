@@ -16,7 +16,7 @@ jobs:
           username: spai0538
           key: ${{ secrets.GCP_SSH_KEY }}
           script: |
-            cd /home/spai0538
+            cd /home/spai0538/AdsProject
             git pull origin main
 #            docker compose down
 #            docker compose up -d --build
