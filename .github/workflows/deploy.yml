@@ -18,5 +18,5 @@ jobs:
           script: |
             cd /home/spai0538/project
             git pull origin main
-            docker compose down
-            docker compose up -d --build
+#            docker compose down
+#            docker compose up -d --build
